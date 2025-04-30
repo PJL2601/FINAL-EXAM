@@ -1,35 +1,27 @@
-# 🌍 Travel Destinations - PHP Final Examl Project
+# Travel Destinations
 
-This is a simple PHP-based web application that allows users to manage a list of travel destinations. Each destination includes a name, country, description, and an image upload. It can serve as a basic content management system (CMS) for travel blogs or destination listings.
+This project allows users to manage travel destinations, including adding, viewing, and deleting destinations with images.
 
-## 🧩 Features
+## Features
 
-- Add new travel destinations with:
-  - Name
-  - Country
-  - Description
-  - Image upload
-- View a list of all added destinations
-- Store images and data on the server
+- User login
+- View destinations
+- Add new destinations
+- Delete destinations
 
-## 🛠️ Technologies Used
+## Requirements
 
-- PHP
-- MySQL (or any other compatible DBMS)
-- HTML/CSS
-- Bootstrap (optional, if included)
-- File Uploads (handled in PHP)
+- PHP 7.0+
+- MySQL
+- Apache or Nginx server
 
-## 📦 Installation
+## Setup
 
-1. **Clone or extract the ZIP file** into your web server root directory (`htdocs` for XAMPP, `www` for WAMP, etc.)
+1. Import the `travel_destinations.sql` database file into your MySQL server.
+2. Configure the database connection in `db.php`.
+3. Place the project files in your server's root directory.
+4. Access the project through your browser.
 
-2. **Database Setup**:
-   - Import the provided `.sql` file into your MySQL server using phpMyAdmin or MySQL CLI.
-   - Update the database connection credentials in your PHP file (e.g. `config.php`).
+## Project Runing Video Link
+https://www.loom.com/share/8cf3363f2c9e461db5bdea9ed25f0e86?sid=02ed4992-83b4-425e-b20b-612234b8faab
 
-   ```php
-   $conn = new mysqli("localhost", "root", "", "travel_db");
-
-## MCQ Answer
--- You can find my MCQ answer in MCQ Answer File.
