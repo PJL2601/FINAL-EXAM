@@ -32,4 +32,4 @@ This is a simple PHP-based web application that allows users to manage a list of
    $conn = new mysqli("localhost", "root", "", "travel_db");
 
 ## MCQ Answer
--- You Can my MCQ answer in MCQ Answer File.
+-- You can find my MCQ answer in MCQ Answer File.
